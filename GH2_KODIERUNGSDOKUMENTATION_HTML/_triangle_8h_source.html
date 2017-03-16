@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>2D Geom Bibliothek: Triangle.h Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">2D Geom Bibliothek
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="annotated.html"><span>Klassen</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Triangle.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by neczp on 2016. 05. 07..</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef GH_2_TRIANGLE_H</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define GH_2_TRIANGLE_H</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;MyPolygon.h&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Line.h&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;Circle.h&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;Segment.h&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_triangle.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_triangle.html">Triangle</a> : <span class="keyword">public</span> <a class="code" href="class_my_polygon.html">MyPolygon</a> {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_triangle.html#ad6736ceb2c5266d5654dc3e4dd6f5970">Triangle</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; a, <span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; b, <span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; c);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="class_triangle.html#ad6736ceb2c5266d5654dc3e4dd6f5970">Triangle</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>* a, <span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>* b, <span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>* c);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// UNIQUE</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span>    <a class="code" href="class_point.html">Point</a>&amp; <a class="code" href="class_triangle.html#ae14ee034e1a514cb132431ee28519416">getA</a> ();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_point.html">Point</a>&amp; <a class="code" href="class_triangle.html#a2627e259dc8aa105dedaffb95ee8575b">getB</a> ();</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_point.html">Point</a>&amp; <a class="code" href="class_triangle.html#ae9d8fe7c589487a6a0575b20abef02a6">getC</a> ();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_triangle.html#aaef493101ff7ef948c118efd9e345bd3">setA</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; p);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_triangle.html#a4a84db7c98cbf0f05d32f473604b6e37">setB</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; p);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_triangle.html#a419ddd11d027aba6a7da4e1b772e54cc">setC</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; p);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#aa6525314e706e4a59fc4c35e275db169">getLengthA</a> ();</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#ac8ee31bcc8ef331be0809dc0a1be4e0a">getLengthB</a> ();</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#aef3c909dcc76444060c27ab86fd4ed04">getLengthC</a> ();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#a8d4c9fba27527e132cbf363fb5ef83e7">getAngleA</a> ();</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#ac247893bff8f7af3e24898aa42feb6d6">getAngleB</a> ();</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#a30cee6a5e86882a9baa2b0be087dff79">getAngleC</a> ();</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#a63988d6b62028b66f2562836da3878f6">getAngleBisectorA</a> ();</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#a9eb39462e20e26ab735e2432f3a3e955">getAngleBisectorB</a> ();</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#af243f794a39d0fd227b9246cfa03eaf6">getAngleBisectorC</a> ();</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#a0ad7c7d325c7e805e99ff556734e485a">getSegmentBisectorAB</a> ();</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#ab58451d1ab0aabdf0f478987fdb0277f">getSegmentBisectorBC</a> ();</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="class_line.html">Line</a>* <a class="code" href="class_triangle.html#a2e8d8120897d3839b785ac4dfc600268">getSegmentBisectorCA</a> ();</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <a class="code" href="class_circle.html">Circle</a>* <a class="code" href="class_triangle.html#a7c24060cee33a8a91d538c60a8db93fb">getInnerCircle</a> ();</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="class_circle.html">Circle</a>* <a class="code" href="class_triangle.html#ad5a3a14f4839262f4303131f36ce1400">getOuterCircle</a> ();</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="class_segment.html">Segment</a>* <a class="code" href="class_triangle.html#aa3acf4735446886b6e229f5d49e2252b">getAB</a> ();</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="class_segment.html">Segment</a>* <a class="code" href="class_triangle.html#a1420fb284a01d2f39502442979ab42a5">getBC</a> ();</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="class_segment.html">Segment</a>* <a class="code" href="class_triangle.html#a30275122babbf7bb4b047affc9863f9c">getCA</a> ();</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <a class="code" href="class_point.html">Point</a>* <a class="code" href="class_triangle.html#ab69f178bb69e98f662fc544eea11cf75">getCentroid</a> ();</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="class_line.html">Line</a>* getAngleBisector (<a class="code" href="class_segment.html">Segment</a>* s1, <a class="code" href="class_segment.html">Segment</a>* s2, <a class="code" href="class_point.html">Point</a>&amp; vert);</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keyword">using</span> <a class="code" href="class_my_polygon.html#a80923241b72afc3d220e6226ef5b66fd">MyPolygon::addPoint</a>;<span class="comment">//not usable</span></div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment"></span>    <span class="keyword">using</span> <a class="code" href="class_my_polygon.html#ad3d06f9f8d541b01b8838393a3c80f0a">MyPolygon::delPoint</a>;<span class="comment">//not usable</span></div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;};</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="preprocessor">#endif //GH_2_TRIANGLE_H</span></div><div class="ttc" id="class_circle_html"><div class="ttname"><a href="class_circle.html">Circle</a></div><div class="ttdef"><b>Definition:</b> Circle.h:17</div></div>
+<div class="ttc" id="class_my_polygon_html_ad3d06f9f8d541b01b8838393a3c80f0a"><div class="ttname"><a href="class_my_polygon.html#ad3d06f9f8d541b01b8838393a3c80f0a">MyPolygon::delPoint</a></div><div class="ttdeci">virtual void delPoint(const Point &amp;p)</div><div class="ttdef"><b>Definition:</b> MyPolygon.cpp:61</div></div>
+<div class="ttc" id="class_triangle_html"><div class="ttname"><a href="class_triangle.html">Triangle</a></div><div class="ttdef"><b>Definition:</b> Triangle.h:16</div></div>
+<div class="ttc" id="class_triangle_html_af243f794a39d0fd227b9246cfa03eaf6"><div class="ttname"><a href="class_triangle.html#af243f794a39d0fd227b9246cfa03eaf6">Triangle::getAngleBisectorC</a></div><div class="ttdeci">Line * getAngleBisectorC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:99</div></div>
+<div class="ttc" id="class_triangle_html_ac8ee31bcc8ef331be0809dc0a1be4e0a"><div class="ttname"><a href="class_triangle.html#ac8ee31bcc8ef331be0809dc0a1be4e0a">Triangle::getLengthB</a></div><div class="ttdeci">double getLengthB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:27</div></div>
+<div class="ttc" id="class_triangle_html_ae14ee034e1a514cb132431ee28519416"><div class="ttname"><a href="class_triangle.html#ae14ee034e1a514cb132431ee28519416">Triangle::getA</a></div><div class="ttdeci">Point &amp; getA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:11</div></div>
+<div class="ttc" id="class_my_polygon_html"><div class="ttname"><a href="class_my_polygon.html">MyPolygon</a></div><div class="ttdef"><b>Definition:</b> MyPolygon.h:31</div></div>
+<div class="ttc" id="class_triangle_html_ac247893bff8f7af3e24898aa42feb6d6"><div class="ttname"><a href="class_triangle.html#ac247893bff8f7af3e24898aa42feb6d6">Triangle::getAngleB</a></div><div class="ttdeci">double getAngleB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:43</div></div>
+<div class="ttc" id="class_triangle_html_ab69f178bb69e98f662fc544eea11cf75"><div class="ttname"><a href="class_triangle.html#ab69f178bb69e98f662fc544eea11cf75">Triangle::getCentroid</a></div><div class="ttdeci">Point * getCentroid()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:57</div></div>
+<div class="ttc" id="class_triangle_html_aef3c909dcc76444060c27ab86fd4ed04"><div class="ttname"><a href="class_triangle.html#aef3c909dcc76444060c27ab86fd4ed04">Triangle::getLengthC</a></div><div class="ttdeci">double getLengthC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:31</div></div>
+<div class="ttc" id="class_triangle_html_a30275122babbf7bb4b047affc9863f9c"><div class="ttname"><a href="class_triangle.html#a30275122babbf7bb4b047affc9863f9c">Triangle::getCA</a></div><div class="ttdeci">Segment * getCA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:70</div></div>
+<div class="ttc" id="class_triangle_html_ad6736ceb2c5266d5654dc3e4dd6f5970"><div class="ttname"><a href="class_triangle.html#ad6736ceb2c5266d5654dc3e4dd6f5970">Triangle::Triangle</a></div><div class="ttdeci">Triangle(const Point &amp;a, const Point &amp;b, const Point &amp;c)</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:6</div></div>
+<div class="ttc" id="class_triangle_html_a2627e259dc8aa105dedaffb95ee8575b"><div class="ttname"><a href="class_triangle.html#a2627e259dc8aa105dedaffb95ee8575b">Triangle::getB</a></div><div class="ttdeci">Point &amp; getB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:15</div></div>
+<div class="ttc" id="class_triangle_html_ad5a3a14f4839262f4303131f36ce1400"><div class="ttname"><a href="class_triangle.html#ad5a3a14f4839262f4303131f36ce1400">Triangle::getOuterCircle</a></div><div class="ttdeci">Circle * getOuterCircle()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:87</div></div>
+<div class="ttc" id="class_triangle_html_ae9d8fe7c589487a6a0575b20abef02a6"><div class="ttname"><a href="class_triangle.html#ae9d8fe7c589487a6a0575b20abef02a6">Triangle::getC</a></div><div class="ttdeci">Point &amp; getC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:19</div></div>
+<div class="ttc" id="class_triangle_html_a8d4c9fba27527e132cbf363fb5ef83e7"><div class="ttname"><a href="class_triangle.html#a8d4c9fba27527e132cbf363fb5ef83e7">Triangle::getAngleA</a></div><div class="ttdeci">double getAngleA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:36</div></div>
+<div class="ttc" id="class_triangle_html_aa6525314e706e4a59fc4c35e275db169"><div class="ttname"><a href="class_triangle.html#aa6525314e706e4a59fc4c35e275db169">Triangle::getLengthA</a></div><div class="ttdeci">double getLengthA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:23</div></div>
+<div class="ttc" id="class_line_html"><div class="ttname"><a href="class_line.html">Line</a></div><div class="ttdef"><b>Definition:</b> Line.h:16</div></div>
+<div class="ttc" id="class_triangle_html_a1420fb284a01d2f39502442979ab42a5"><div class="ttname"><a href="class_triangle.html#a1420fb284a01d2f39502442979ab42a5">Triangle::getBC</a></div><div class="ttdeci">Segment * getBC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:66</div></div>
+<div class="ttc" id="class_triangle_html_a9eb39462e20e26ab735e2432f3a3e955"><div class="ttname"><a href="class_triangle.html#a9eb39462e20e26ab735e2432f3a3e955">Triangle::getAngleBisectorB</a></div><div class="ttdeci">Line * getAngleBisectorB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:95</div></div>
+<div class="ttc" id="class_triangle_html_a4a84db7c98cbf0f05d32f473604b6e37"><div class="ttname"><a href="class_triangle.html#a4a84db7c98cbf0f05d32f473604b6e37">Triangle::setB</a></div><div class="ttdeci">void setB(const Point &amp;p)</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:154</div></div>
+<div class="ttc" id="class_segment_html"><div class="ttname"><a href="class_segment.html">Segment</a></div><div class="ttdef"><b>Definition:</b> Segment.h:16</div></div>
+<div class="ttc" id="class_triangle_html_a419ddd11d027aba6a7da4e1b772e54cc"><div class="ttname"><a href="class_triangle.html#a419ddd11d027aba6a7da4e1b772e54cc">Triangle::setC</a></div><div class="ttdeci">void setC(const Point &amp;p)</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:162</div></div>
+<div class="ttc" id="class_triangle_html_a7c24060cee33a8a91d538c60a8db93fb"><div class="ttname"><a href="class_triangle.html#a7c24060cee33a8a91d538c60a8db93fb">Triangle::getInnerCircle</a></div><div class="ttdeci">Circle * getInnerCircle()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:74</div></div>
+<div class="ttc" id="class_triangle_html_ab58451d1ab0aabdf0f478987fdb0277f"><div class="ttname"><a href="class_triangle.html#ab58451d1ab0aabdf0f478987fdb0277f">Triangle::getSegmentBisectorBC</a></div><div class="ttdeci">Line * getSegmentBisectorBC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:138</div></div>
+<div class="ttc" id="class_triangle_html_a30cee6a5e86882a9baa2b0be087dff79"><div class="ttname"><a href="class_triangle.html#a30cee6a5e86882a9baa2b0be087dff79">Triangle::getAngleC</a></div><div class="ttdeci">double getAngleC()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:50</div></div>
+<div class="ttc" id="class_my_polygon_html_a80923241b72afc3d220e6226ef5b66fd"><div class="ttname"><a href="class_my_polygon.html#a80923241b72afc3d220e6226ef5b66fd">MyPolygon::addPoint</a></div><div class="ttdeci">virtual void addPoint(const Point &amp;p, int pos=0)</div><div class="ttdef"><b>Definition:</b> MyPolygon.cpp:40</div></div>
+<div class="ttc" id="class_triangle_html_a0ad7c7d325c7e805e99ff556734e485a"><div class="ttname"><a href="class_triangle.html#a0ad7c7d325c7e805e99ff556734e485a">Triangle::getSegmentBisectorAB</a></div><div class="ttdeci">Line * getSegmentBisectorAB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:134</div></div>
+<div class="ttc" id="class_triangle_html_a2e8d8120897d3839b785ac4dfc600268"><div class="ttname"><a href="class_triangle.html#a2e8d8120897d3839b785ac4dfc600268">Triangle::getSegmentBisectorCA</a></div><div class="ttdeci">Line * getSegmentBisectorCA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:142</div></div>
+<div class="ttc" id="class_triangle_html_aa3acf4735446886b6e229f5d49e2252b"><div class="ttname"><a href="class_triangle.html#aa3acf4735446886b6e229f5d49e2252b">Triangle::getAB</a></div><div class="ttdeci">Segment * getAB()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:62</div></div>
+<div class="ttc" id="class_point_html"><div class="ttname"><a href="class_point.html">Point</a></div><div class="ttdef"><b>Definition:</b> Point.h:16</div></div>
+<div class="ttc" id="class_triangle_html_a63988d6b62028b66f2562836da3878f6"><div class="ttname"><a href="class_triangle.html#a63988d6b62028b66f2562836da3878f6">Triangle::getAngleBisectorA</a></div><div class="ttdeci">Line * getAngleBisectorA()</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:91</div></div>
+<div class="ttc" id="class_triangle_html_aaef493101ff7ef948c118efd9e345bd3"><div class="ttname"><a href="class_triangle.html#aaef493101ff7ef948c118efd9e345bd3">Triangle::setA</a></div><div class="ttdeci">void setA(const Point &amp;p)</div><div class="ttdef"><b>Definition:</b> Triangle.cpp:146</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
