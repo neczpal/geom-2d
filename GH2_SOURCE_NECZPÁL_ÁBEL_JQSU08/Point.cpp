@@ -6,6 +6,11 @@
 #include "Point.h"
 #include "Line.h"
 
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
+
 Point::Point (double x, double y) : Transformable () {
 	setPosition (x, y);
 }

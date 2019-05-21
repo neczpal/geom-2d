@@ -2,10 +2,15 @@
 // Created by neczp on 2016. 05. 13..
 //
 
-#include <iostream>
 #include "Point.h"
 #include "Line.h"
 #include "Circle.h"
+
+#include <iostream>
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
 
 Circle::Circle (double x, double y, double r) {
 	if ( r <= 0 ) {

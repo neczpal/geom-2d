@@ -8,7 +8,6 @@
 #include "Transformable.h"
 #include "Point.h"
 
-#include <GL/gl.h>
 
 /**
  * Diese Klasse verwirklicht ein Sektion (A Punkt und B Punkt)

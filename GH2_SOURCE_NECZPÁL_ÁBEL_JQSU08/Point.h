@@ -8,7 +8,6 @@
 #include "Transformable.h"
 
 #include <math.h>
-#include <GL/gl.h>
 
 /**
  * Diese Klasse verwirklicht ein Punkt

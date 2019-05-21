@@ -2,8 +2,13 @@
 // Created by neczp on 2016. 05. 11..
 //
 
-#include <iostream>
 #include "Line.h"
+
+#include <iostream>
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
 
 Segment::Segment (const Point* a, const Point* b) {
 	if ( *a == *b ) {

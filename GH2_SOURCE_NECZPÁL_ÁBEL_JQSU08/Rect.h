@@ -8,7 +8,6 @@
 
 #include "Point.h"
 #include "Area.h"
-#include <GL/gl.h>
 
 /**
  * Diese Klasse verwirklicht ein Rechteck, dessen Seiten sind parallel zur x- bzw. zur y-Achse <br>

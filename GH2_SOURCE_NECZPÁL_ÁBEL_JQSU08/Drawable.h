@@ -5,7 +5,6 @@
 #ifndef GH_2_DRAWABLE_H
 #define GH_2_DRAWABLE_H
 
-#include <GL/gl.h>
 
 /**
  * Diese abstrakte Klasse ist die Baseklasse aller zeichenbaren Komponenten

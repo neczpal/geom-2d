@@ -3,6 +3,10 @@
 //
 #include "Drawable.h"
 
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
 Drawable::Drawable () {
 	setColor (1.0f, 1.0f, 1.0f);
 }

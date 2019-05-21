@@ -5,6 +5,11 @@
 #include <iostream>
 #include "Rect.h"
 
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
+
 Rect::Rect (double x, double y, double w, double h) {
 	if ( w <= 0 || h <= 0 ) {
 		std::cerr << "Rect width and height must be bigger than 0!" << std::endl;

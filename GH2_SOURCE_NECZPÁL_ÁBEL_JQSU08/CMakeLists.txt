@@ -25,4 +25,16 @@ set(SOURCE_FILES main.cpp
 
 add_executable(GH_2 ${SOURCE_FILES})
 
-target_link_libraries(GH_2 libopengl32.a libglu32.a libfreeglut.a)
+find_package(OpenGL REQUIRED)
+find_package(GLUT REQUIRED)
+find_package(GLEW REQUIRED)
+
+if (GLUT_FOUND)
+    include_directories(${GLUT_INCLUDE_DIRS} )
+endif()
+
+if (GLEW_FOUND)
+    include_directories(${GLEW_INCLUDE_DIRS} )
+endif()
+
+target_link_libraries(GH_2 ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${GLEW_LIBRARY})

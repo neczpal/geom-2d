@@ -3,6 +3,10 @@
 //
 #include "MyPolygon.h"
 
+#include <GLUT/GLUT.h>
+#include <OpenGL/gl3.h>
+#include <OpenGL/glu.h>
+
 
 MyPolygon::MyPolygon (const Point& a, const Point& b, const Point& c) : Shape () {
 	if ( a == b || b == c || a == c ) {
