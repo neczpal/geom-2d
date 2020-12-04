@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>2D Geom Bibliothek: C:/Users/neczp/OneDrive/BME/2015-2016-2/Prog2/Hausi/GH_2/Rect.h Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">2D Geom Bibliothek
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="annotated.html"><span>Klassen</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8105bba7d3676c078a1d0bffefce938f.html">GH_2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Rect.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by neczp on 2016. 05. 07..</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef GH_2_RECT_H</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define GH_2_RECT_H</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Point.h&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;Area.h&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;GL/gl.h&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_rect.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_rect.html">Rect</a> : <span class="keyword">public</span> <a class="code" href="class_area.html">Area</a> {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_rect.html#aff2071f09ec58bb705b35b4e5fd9929a">Rect</a> (<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> w, <span class="keywordtype">double</span> h);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="class_rect.html#aff2071f09ec58bb705b35b4e5fd9929a">Rect</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>&amp; p, <span class="keywordtype">double</span> w, <span class="keywordtype">double</span> h);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_rect.html#aff2071f09ec58bb705b35b4e5fd9929a">Rect</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>* p, <span class="keywordtype">double</span> w, <span class="keywordtype">double</span> h);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_rect.html#af5c075b863024c3e39add95e07d10f39">~Rect</a> ();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_rect.html#ae682c2d6e1c4936330621b567001706a">operator== </a>(<span class="keyword">const</span> <a class="code" href="class_rect.html">Rect</a>&amp; another) <span class="keyword">const</span>;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// Sieht in &lt;b&gt;Area&lt;/b&gt;</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="class_rect.html#ae94a0646349ad126865c7df4233fdb69">getArea</a> ();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="class_rect.html#a42d48b132bb0dba7e0f1fdaa9f2947d8">getPerimeter</a> ();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_rect.html#aee959cf598cbb2d185c5e510eac94b4f">isInside</a> (<span class="keyword">const</span> <a class="code" href="class_point.html">Point</a>* e);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// Sieht in &lt;b&gt;Drawable&lt;/b&gt;</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_rect.html#a8dcd19de13a2218bd44fc5759354341d">draw</a> ();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">//GETTERS SETTERS</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_rect.html#a2f9109799945ae23d12a8cd639a77402">getX</a> () <span class="keyword">const</span>;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_rect.html#a4c57bf14d4ec09bb4ff834e326b01866">getY</a> () <span class="keyword">const</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_rect.html#ab223c8a2fc710bc9b7ed7fa93ff68e4e">getWidth</a> () <span class="keyword">const</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_rect.html#a4b7f6fb7fd821c68322d9f974dbd893a">getHeight</a> () <span class="keyword">const</span>;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_rect.html#a3e915934c0274745e8facbd49ad473e1">setX</a> (<span class="keywordtype">double</span> x);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_rect.html#a07538a0b0d12d0a7984ac1de5d812edd">setY</a> (<span class="keywordtype">double</span> y);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_rect.html#af79e6ee005dd35258622064177ecd4ca">setWidth</a> (<span class="keywordtype">double</span> width);</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_rect.html#aef562d4f8d36fc7e6c149e104c779cdf">setHeight</a> (<span class="keywordtype">double</span> height);</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="class_point.html">Point</a>* pA;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="class_point.html">Point</a>* pB;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;};</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif //GH_2_RECT_H</span></div><div class="ttc" id="class_rect_html_af79e6ee005dd35258622064177ecd4ca"><div class="ttname"><a href="class_rect.html#af79e6ee005dd35258622064177ecd4ca">Rect::setWidth</a></div><div class="ttdeci">void setWidth(double width)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:87</div></div>
+<div class="ttc" id="class_rect_html_aef562d4f8d36fc7e6c149e104c779cdf"><div class="ttname"><a href="class_rect.html#aef562d4f8d36fc7e6c149e104c779cdf">Rect::setHeight</a></div><div class="ttdeci">void setHeight(double height)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:95</div></div>
+<div class="ttc" id="class_rect_html"><div class="ttname"><a href="class_rect.html">Rect</a></div><div class="ttdef"><b>Definition:</b> Rect.h:17</div></div>
+<div class="ttc" id="class_rect_html_a07538a0b0d12d0a7984ac1de5d812edd"><div class="ttname"><a href="class_rect.html#a07538a0b0d12d0a7984ac1de5d812edd">Rect::setY</a></div><div class="ttdeci">void setY(double y)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:81</div></div>
+<div class="ttc" id="class_rect_html_aff2071f09ec58bb705b35b4e5fd9929a"><div class="ttname"><a href="class_rect.html#aff2071f09ec58bb705b35b4e5fd9929a">Rect::Rect</a></div><div class="ttdeci">Rect(double x, double y, double w, double h)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:8</div></div>
+<div class="ttc" id="class_rect_html_ab223c8a2fc710bc9b7ed7fa93ff68e4e"><div class="ttname"><a href="class_rect.html#ab223c8a2fc710bc9b7ed7fa93ff68e4e">Rect::getWidth</a></div><div class="ttdeci">double getWidth() const </div><div class="ttdef"><b>Definition:</b> Rect.cpp:67</div></div>
+<div class="ttc" id="class_rect_html_ae682c2d6e1c4936330621b567001706a"><div class="ttname"><a href="class_rect.html#ae682c2d6e1c4936330621b567001706a">Rect::operator==</a></div><div class="ttdeci">bool operator==(const Rect &amp;another) const </div><div class="ttdef"><b>Definition:</b> Rect.cpp:29</div></div>
+<div class="ttc" id="class_rect_html_a42d48b132bb0dba7e0f1fdaa9f2947d8"><div class="ttname"><a href="class_rect.html#a42d48b132bb0dba7e0f1fdaa9f2947d8">Rect::getPerimeter</a></div><div class="ttdeci">virtual double getPerimeter()</div><div class="ttdef"><b>Definition:</b> Rect.cpp:37</div></div>
+<div class="ttc" id="class_area_html"><div class="ttname"><a href="class_area.html">Area</a></div><div class="ttdef"><b>Definition:</b> Area.h:16</div></div>
+<div class="ttc" id="class_rect_html_af5c075b863024c3e39add95e07d10f39"><div class="ttname"><a href="class_rect.html#af5c075b863024c3e39add95e07d10f39">Rect::~Rect</a></div><div class="ttdeci">~Rect()</div><div class="ttdef"><b>Definition:</b> Rect.cpp:23</div></div>
+<div class="ttc" id="class_rect_html_aee959cf598cbb2d185c5e510eac94b4f"><div class="ttname"><a href="class_rect.html#aee959cf598cbb2d185c5e510eac94b4f">Rect::isInside</a></div><div class="ttdeci">virtual bool isInside(const Point *e)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:41</div></div>
+<div class="ttc" id="class_rect_html_a3e915934c0274745e8facbd49ad473e1"><div class="ttname"><a href="class_rect.html#a3e915934c0274745e8facbd49ad473e1">Rect::setX</a></div><div class="ttdeci">void setX(double x)</div><div class="ttdef"><b>Definition:</b> Rect.cpp:75</div></div>
+<div class="ttc" id="class_rect_html_a4b7f6fb7fd821c68322d9f974dbd893a"><div class="ttname"><a href="class_rect.html#a4b7f6fb7fd821c68322d9f974dbd893a">Rect::getHeight</a></div><div class="ttdeci">double getHeight() const </div><div class="ttdef"><b>Definition:</b> Rect.cpp:71</div></div>
+<div class="ttc" id="class_rect_html_ae94a0646349ad126865c7df4233fdb69"><div class="ttname"><a href="class_rect.html#ae94a0646349ad126865c7df4233fdb69">Rect::getArea</a></div><div class="ttdeci">virtual double getArea()</div><div class="ttdef"><b>Definition:</b> Rect.cpp:33</div></div>
+<div class="ttc" id="class_rect_html_a4c57bf14d4ec09bb4ff834e326b01866"><div class="ttname"><a href="class_rect.html#a4c57bf14d4ec09bb4ff834e326b01866">Rect::getY</a></div><div class="ttdeci">double getY() const </div><div class="ttdef"><b>Definition:</b> Rect.cpp:63</div></div>
+<div class="ttc" id="class_rect_html_a2f9109799945ae23d12a8cd639a77402"><div class="ttname"><a href="class_rect.html#a2f9109799945ae23d12a8cd639a77402">Rect::getX</a></div><div class="ttdeci">double getX() const </div><div class="ttdef"><b>Definition:</b> Rect.cpp:59</div></div>
+<div class="ttc" id="class_point_html"><div class="ttname"><a href="class_point.html">Point</a></div><div class="ttdef"><b>Definition:</b> Point.h:16</div></div>
+<div class="ttc" id="class_rect_html_a8dcd19de13a2218bd44fc5759354341d"><div class="ttname"><a href="class_rect.html#a8dcd19de13a2218bd44fc5759354341d">Rect::draw</a></div><div class="ttdeci">virtual void draw()</div><div class="ttdef"><b>Definition:</b> Rect.cpp:46</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
