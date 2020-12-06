@@ -30,8 +30,8 @@ A very basic 2D Geometry library made in c++.
 
 ## Documentation
 
-* German [program dokumentation](https://github.com/neczpal/geom-2d/tree/master/docs-de/html-docs).
-* German [user dokumentation](https://github.com/neczpal/geom-2d/tree/master/docs-de/Benutzerdokumentation.pdf)
+* German [program dokumentation](https://github.com/neczpal/geom-2d/raw/master/docs-de/html-docs/index.html).
+* German [user dokumentation](https://github.com/neczpal/geom-2d/raw/master/docs-de/Benutzerdokumentation.pdf)
 
 ## License
 
