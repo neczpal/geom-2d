@@ -1,7 +1,7 @@
 //
 // Created by neczp on 2016. 05. 15..
 //
-#include "Triangle.h"
+#include "../inc/Triangle.h"
 
 Triangle::Triangle (const Point& a, const Point& b, const Point& c) : MyPolygon (a, b, c) {
 }

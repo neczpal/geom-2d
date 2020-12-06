@@ -1,7 +1,7 @@
 //
 // Created by neczp on 2016. 05. 16..
 //
-#include "Drawable.h"
+#include "../inc/Drawable.h"
 
 #include <GLUT/GLUT.h>
 #include <OpenGL/gl3.h>

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Rect.h"
+#include "../inc/Rect.h"
 
 #include <GLUT/GLUT.h>
 #include <OpenGL/gl3.h>

@@ -3,8 +3,8 @@
 //
 
 
-#include "Point.h"
-#include "Line.h"
+#include "../inc/Point.h"
+#include "../inc/Line.h"
 
 #include <GLUT/GLUT.h>
 #include <OpenGL/gl3.h>

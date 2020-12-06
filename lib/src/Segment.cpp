@@ -2,7 +2,7 @@
 // Created by neczp on 2016. 05. 11..
 //
 
-#include "Line.h"
+#include "../inc/Line.h"
 
 #include <iostream>
 #include <GLUT/GLUT.h>

@@ -2,7 +2,7 @@
 // Created by neczp on 2016. 05. 05..
 //
 
-#include "Line.h"
+#include "../inc/Line.h"
 
 /**
  * xc * x + yc * y = ec

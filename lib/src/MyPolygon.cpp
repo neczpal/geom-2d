@@ -1,7 +1,7 @@
 //
 // Created by neczp on 2016. 05. 07..
 //
-#include "MyPolygon.h"
+#include "../inc/MyPolygon.h"
 
 #include <GLUT/GLUT.h>
 #include <OpenGL/gl3.h>

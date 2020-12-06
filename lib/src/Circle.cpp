@@ -2,9 +2,9 @@
 // Created by neczp on 2016. 05. 13..
 //
 
-#include "Point.h"
-#include "Line.h"
-#include "Circle.h"
+#include "../inc/Point.h"
+#include "../inc/Line.h"
+#include "../inc/Circle.h"
 
 #include <iostream>
 #include <GLUT/GLUT.h>

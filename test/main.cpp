@@ -1,8 +1,8 @@
-#include "Line.h"
-#include "Circle.h"
-#include "MyPolygon.h"
-#include "Triangle.h"
-#include "Rect.h"
+#include "../lib/inc/Line.h"
+#include "../lib/inc/Circle.h"
+#include "../lib/inc/MyPolygon.h"
+#include "../lib/inc/Triangle.h"
+#include "../lib/inc/Rect.h"
 
 #define GL_SILENCE_DEPRECATION
 #ifdef __APPLE__
