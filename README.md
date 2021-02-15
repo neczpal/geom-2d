@@ -35,7 +35,7 @@ A very basic 2D Geometry library made in c++.
 
 ## License
 
-All Rights Reserved.
+MIT
 
 Copyright (c) 2020 Neczpál Ábel.
 
@@ -46,4 +46,4 @@ The project is uploaded for educational purpose. Contribution and fair use of th
 
 Neczpál Ábel - [neczpal@gmail.com](mailto:neczpal@gmail.com)
 
-Project Link: [https://github.com/neczpal/geom-2d](https://github.com/neczpal/geom-2d)
+Project Link - [https://github.com/neczpal/geom-2d](https://github.com/neczpal/geom-2d)
